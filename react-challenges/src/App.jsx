@@ -1,7 +1,5 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import DebounceAndThrottle from './challenges/1-Debounce and Throttle Implementation/DebounceAndThrottle'
 
 function App() {
 
@@ -9,7 +7,7 @@ function App() {
   return (
 
       <div>
-        First commit
+        <DebounceAndThrottle/>
     </div>
   )
 }
