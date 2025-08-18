@@ -1,5 +1,5 @@
 import './App.css'
-import DebounceAndThrottle from './challenges/1-Debounce and Throttle Implementation/DebounceAndThrottle'
+import Autocomplete from './challenges/2-autocomplete/Autocomplete'
 
 function App() {
 
@@ -7,7 +7,7 @@ function App() {
   return (
 
       <div>
-        <DebounceAndThrottle/>
+<Autocomplete/>        
     </div>
   )
 }
