@@ -1,5 +1,7 @@
 import './App.css'
-import Autocomplete from './challenges/2-autocomplete/Autocomplete'
+import Modal from './challenges/4-Modal/Modal'
+
+
 
 function App() {
 
@@ -7,7 +9,7 @@ function App() {
   return (
 
 <div>
-  <Autocomplete/>        
+   <Modal/>
   </div>
   )
 }
