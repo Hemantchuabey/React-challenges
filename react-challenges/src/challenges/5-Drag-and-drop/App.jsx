@@ -1,12 +1,11 @@
 import React from "react";
 import "./App.css";
-import Home from "./challenges/7-React Performance/Home";
-
+import KanbanBoard from "./challenges/5-Drag-and-drop/KanbanBoard";
 
 function App() {
   return (
     <div>
-<Home/>
+      <KanbanBoard />
     </div>
   );
 }
